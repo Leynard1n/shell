@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:shell"
+       x:Class="shell.AppShell">
+
+    <ShellItem Title="Main Page" Route="MainPage">
+        <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+    </ShellItem>
+
+    <ShellItem Title="Second Page" Route="SecondPage">
+        <ShellContent ContentTemplate="{DataTemplate local:SecondPage}" />
+    </ShellItem>
+
+    <ShellItem Title="Third Page" Route="ThirdPage">
+        <ShellContent ContentTemplate="{DataTemplate local:ThirdPage}" />
+    </ShellItem>
+</Shell>
